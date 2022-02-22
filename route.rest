@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+Get http://localhost:3000/subscribers/621361f0917d4945edf3554a
+
+
+###
+
+
+POST http://localhost:3000/subscribers 
+Content-Type: application/json
+
+{
+"name": "Lilitha Ngele",
+"subscribedToChannel": "Web Dev Simplified"
+}
+
+###
+DELETE http://localhost:3000/subscribers/621361f0917d4945edf3554a
+
+###
+
+PATCH http://localhost:3000/subscribers/621361f0917d4945edf3554a
+Content-Type: application/json
+
+{
+   "name": "Lily"
+    
+}
